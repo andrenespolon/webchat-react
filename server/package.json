@@ -1,0 +1,22 @@
+{
+  "name": "webchat-react-server",
+  "version": "0.0.1",
+  "description": "Webchat server.",
+  "main": "index.js",
+  "author": "André Nespolon",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon index"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
